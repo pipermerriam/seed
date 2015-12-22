@@ -17,6 +17,7 @@ angular.module('BE.seed.controller.building_detail', [])
   '$filter',
   '$location',
   'audit_service',
+  'label_service',
   'label_helper_service',
   function($scope, $routeParams, $uibModal, $log, building_services, project_service, building_payload, all_columns, audit_payload, urls, $filter, $location, audit_service, label_helper_service) {
     $scope.user = {};
